@@ -35,6 +35,8 @@ blockquote { margin: 12px 0; padding: 10px 14px; background: #EEF0EF; border-rad
 .topbar nav a:hover { color: var(--mint-deep); }
 footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--fg-3); font-size: 14px; display: flex; flex-direction: column; gap: 4px; }
 
+footer .biz { margin-top: 8px; font-size: 13px; line-height: 1.6; }
+
 /* 조각 */
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; margin-top: 16px; }
 .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 20px 0 8px; }
