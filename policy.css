@@ -143,14 +143,15 @@ a.store:hover { background: #000; }
 .gallery { display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 12px max(20px, calc((100vw - 1080px) / 2 + 20px)) 28px; scrollbar-width: thin; }
 .gallery figure { flex: none; width: 220px; margin: 0; scroll-snap-align: center; }
 .gallery figcaption { margin-top: 14px; display: flex; flex-direction: column; }
-.gallery figcaption b, .console-grid figcaption b { font-family: var(--font-head); font-size: 16px; }
-.gallery figcaption span, .console-grid figcaption span { color: var(--fg-3); font-size: 14px; }
+.gallery figcaption b { font-family: var(--font-head); font-size: 16px; }
+.gallery figcaption span { color: var(--fg-3); font-size: 14px; }
 
 /* 운영 콘솔 */
 .console-hero { margin-bottom: 28px; }
-.console-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
-.console-grid figure { margin: 0; }
-.console-grid figcaption { margin-top: 12px; display: flex; flex-direction: column; }
+.console-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.feat { display: flex; flex-direction: column; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; }
+.feat b { font-family: var(--font-head); font-size: 17px; }
+.feat span { color: var(--fg-3); font-size: 14px; }
 .shot-note { margin-top: 18px; }
 
 /* 도입 절차 */
@@ -188,6 +189,7 @@ a.store:hover { background: #000; }
   .hero-copy h1 img { width: 44px; height: 44px; }
   .hero-copy .lead { font-size: 19px; }
   .landing h2 { font-size: 24px; }
-  .roles, .steps, .console-grid { grid-template-columns: 1fr; }
+  .roles, .steps { grid-template-columns: 1fr; }
+  .console-grid { grid-template-columns: repeat(2, 1fr); }
   .topbar nav a:nth-child(n+3) { display: none; }
 }
