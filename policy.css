@@ -29,9 +29,11 @@ blockquote { margin: 12px 0; padding: 10px 14px; background: #EEF0EF; border-rad
 .topbar { border-bottom: 1px solid var(--line); background: var(--surface); }
 .topbar-in { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 .logo { font-family: var(--font-head); font-weight: 700; font-size: 19px; color: var(--fg); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
-.topbar nav { margin-left: auto; display: flex; gap: 14px; font-size: 14px; }
+.topbar nav { margin-left: auto; display: flex; align-items: center; gap: 14px; font-size: 14px; }
 .topbar nav a { color: var(--fg-2); text-decoration: none; }
 .topbar nav a:hover { color: var(--mint-deep); }
+.topbar nav a.nav-console { color: var(--fg); font-weight: 700; border: 1px solid #C3C9C6; border-radius: 999px; padding: 2px 12px; white-space: nowrap; }
+.topbar nav a.nav-console:hover { border-color: var(--mint); color: var(--fg); }
 footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--fg-3); font-size: 14px; display: flex; flex-direction: column; gap: 4px; }
 
 footer .biz { margin-top: 8px; font-size: 13px; line-height: 1.6; }
@@ -196,5 +198,5 @@ a.club:hover { border-color: var(--mint); }
   .landing h2 { font-size: 24px; }
   .roles, .steps { grid-template-columns: 1fr; }
   .console-grid { grid-template-columns: repeat(2, 1fr); }
-  .topbar nav a:nth-child(n+3) { display: none; }
+  .topbar nav a:nth-child(n+3):not(.nav-console) { display: none; }
 }
