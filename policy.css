@@ -47,6 +47,8 @@ footer .biz { margin-top: 8px; font-size: 13px; line-height: 1.6; }
 .mail { font-weight: 700; word-break: break-all; }
 .btn { display: inline-block; background: var(--mint); color: #0C231D; font-weight: 700; font-size: 14px; text-decoration: none; padding: 9px 16px; border-radius: 999px; }
 .btn-ghost { background: transparent; color: var(--mint-deep); border: 1px solid var(--mint); }
+.btn-kakao { display: inline-flex; align-items: center; gap: 8px; background: #FEE500; color: rgba(0,0,0,.85); }
+.btn-kakao .kakao-sym { flex: none; }
 .path { display: inline-block; background: #EEF0EF; border-radius: 6px; padding: 1px 8px; font-weight: 700; font-size: 14px; }
 .notice { display: flex; gap: 12px; align-items: flex-start; border-radius: 14px; padding: 14px 16px; margin: 16px 0; font-size: 15px; line-height: 1.65; }
 .notice.info { background: #E6FBF6; border: 1px solid #BFF0E4; color: #075E53; }
