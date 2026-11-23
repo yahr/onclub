@@ -122,6 +122,9 @@ a.store:hover { background: #000; }
 .club > div { display: flex; flex-direction: column; gap: 2px; }
 .club b { font-family: var(--font-head); font-size: 34px; }
 .club span { color: var(--fg-3); font-size: 19px; }
+a.club { color: inherit; text-decoration: none; transition: border-color .2s; }
+a.club:hover { border-color: var(--mint); }
+.club em { font-style: normal; font-weight: 700; font-size: 15px; color: #067A62; margin-top: 6px; }
 
 @media (max-width: 640px) { .label { font-size: 24px; } .club { gap: 14px; padding: 16px 20px 16px 16px; } .club img { width: 76px; height: 76px; } .club b { font-size: 24px; } .club span { font-size: 15px; white-space: nowrap; } }
 

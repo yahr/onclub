@@ -1,0 +1,11 @@
+# 온클럽 (OnClub)
+
+> 유소년 스포츠클럽 운영 앱. 셔틀 도착 예정 시간 · 출결 · 공지 · 수업 사진 · 커뮤니티 · 코치 대화를
+> 학부모 · 코치 · 차량 기사 · 운영자가 함께 써요. App Store에서 받을 수 있어요.
+
+## 페이지
+- [온클럽](https://onclubapp.kr/): 서비스 소개 · 도입 문의
+- [메타시티FC](https://onclubapp.kr/clubs/metacityfc/): 가입 클럽 소개, 학부모 앱 안내
+- [지원 · 문의](https://onclubapp.kr/support.html): 문의 메일 · 콘텐츠 신고
+- [개인정보처리방침](https://onclubapp.kr/privacy.html)
+- [이용약관](https://onclubapp.kr/terms.html)

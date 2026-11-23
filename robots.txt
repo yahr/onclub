@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# 검색 · AI 답변용 로봇 (인용이 목적)
+# Yeti=네이버, Daumoa=다음
+User-agent: Yeti
+User-agent: Daumoa
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+# 학습용 로봇은 운영사가 정함 (기본: 허용)
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://onclubapp.kr/sitemap.xml

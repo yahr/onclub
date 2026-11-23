@@ -3,8 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>온클럽 · 온클럽</title>
-<meta name="description" content="온클럽 — 유소년 스포츠클럽 운영 플랫폼">
+<title>온클럽 - 유소년 스포츠클럽 운영 앱 · 셔틀 위치 · 출결 · 공지</title>
+<meta name="description" content="온클럽(OnClub)은 유소년 스포츠클럽 운영 앱이에요. 셔틀 도착 예정 시간 · 출결 · 공지 · 수업 사진을 학부모 · 코치 · 기사 · 운영자가 함께 써요.">
+<link rel="canonical" href="https://onclubapp.kr/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="온클럽">
+<meta property="og:title" content="온클럽 - 유소년 스포츠클럽 운영 앱 · 셔틀 위치 · 출결 · 공지">
+<meta property="og:description" content="온클럽(OnClub)은 유소년 스포츠클럽 운영 앱이에요. 셔틀 도착 예정 시간 · 출결 · 공지 · 수업 사진을 학부모 · 코치 · 기사 · 운영자가 함께 써요.">
+<meta property="og:url" content="https://onclubapp.kr/">
+<meta property="og:image" content="https://onclubapp.kr/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-itunes-app" content="app-id=6813026309">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://onclubapp.kr/#org",
+   "name": "온클럽",
+   "alternateName": [
+    "OnClub",
+    "ONCLUB"
+   ],
+   "url": "https://onclubapp.kr/",
+   "logo": "https://onclubapp.kr/logo.png",
+   "email": "onclubapp@gmail.com",
+   "sameAs": [
+    "https://apps.apple.com/kr/app/id6813026309"
+   ]
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://onclubapp.kr/#app",
+   "name": "온클럽",
+   "alternateName": "OnClub - 유소년 스포츠클럽 앱",
+   "operatingSystem": "iOS",
+   "applicationCategory": "EducationalApplication",
+   "url": "https://apps.apple.com/kr/app/id6813026309",
+   "downloadUrl": "https://apps.apple.com/kr/app/id6813026309",
+   "publisher": {
+    "@id": "https://onclubapp.kr/#org"
+   },
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "KRW"
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://onclubapp.kr/#site",
+   "url": "https://onclubapp.kr/",
+   "name": "온클럽",
+   "publisher": {
+    "@id": "https://onclubapp.kr/#org"
+   },
+   "inLanguage": "ko-KR"
+  }
+ ]
+}
+</script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="policy.css">
 </head>
@@ -45,14 +106,14 @@
 
 <section class="in clubs-band reveal">
   <span class="label">이용 중인 클럽</span>
-  <div class="club"><img src="club-metacity.svg" alt="메타시티FC 엠블럼" width="128" height="128" loading="lazy"><div><b>메타시티FC</b><span>유소년 축구클럽 · 경기 성남 위례</span></div></div>
+  <a class="club" href="clubs/metacityfc/"><img src="club-metacity.svg" alt="메타시티FC 엠블럼" width="128" height="128" loading="lazy"><div><b>메타시티FC</b><span>유소년 축구클럽 · 성남 분당 · 위례</span><em>클럽 소개 보기 →</em></div></a>
 </section>
 
 <section class="in" id="roles">
   <h2 class="reveal">어떤 앱인가요</h2>
   <p class="sec-lead reveal">한 클럽 안의 네 사람이 각자 필요한 화면을 써요.</p>
   <div class="roles">
-    <article class="role reveal" style="--d:0ms"><div class="role-shot"><div class="phone "><img class="" src="shots/app-map.jpg" alt="학부모 앱 — 차량 위치 지도" width="462" height="1000" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">👨‍👩‍👧</span><h3>학부모</h3><p>차량이 어디쯤인지 실시간으로 보고, 출결·공지·사진을 받고, 코치·기사와 이야기해요.</p></div></article><article class="role reveal" style="--d:80ms"><div class="role-shot"><div class="phone "><img class="" src="shots/app-driver.jpg" alt="기사 앱 — 운행 시작" width="462" height="1000" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">🚐</span><h3>차량 기사</h3><p>운행을 시작하고 승하차를 기록해요. 위치는 <b>운행 중에만</b> 전송돼요.</p></div></article><article class="role reveal" style="--d:160ms"><div class="role-shot"><div class="phone "><img class="" src="shots/app-coach.jpg" alt="코치 앱 — 오늘 수업" width="462" height="1000" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">⚽</span><h3>코치</h3><p>오늘 수업과 출결을 기록하고, 훈련 내용과 사진을 남겨요.</p></div></article><article class="role reveal" style="--d:240ms"><div class="role-shot"><div class="browser "><div class="bar"><i></i><i></i><i></i><span>onclub.handle.ai.kr</span></div><img class="" src="shots/web-home.jpg" alt="운영 콘솔 — 관제 홈" width="1600" height="1111" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">🏟️</span><h3>클럽 운영자</h3><p>원생·반·차량·일정·수강료를 한 화면에서 관리하고, 신고된 내용을 검토해요.</p></div></article>
+    <article class="role reveal" style="--d:0ms"><div class="role-shot"><div class="phone "><img class="" src="shots/app-map.jpg" alt="학부모 앱 - 차량 위치 지도" width="462" height="1000" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">👨‍👩‍👧</span><h3>학부모</h3><p>차량이 어디쯤인지 실시간으로 보고, 출결·공지·사진을 받고, 코치·기사와 이야기해요.</p></div></article><article class="role reveal" style="--d:80ms"><div class="role-shot"><div class="phone "><img class="" src="shots/app-driver.jpg" alt="기사 앱 - 운행 시작" width="462" height="1000" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">🚐</span><h3>차량 기사</h3><p>운행을 시작하고 승하차를 기록해요. 위치는 <b>운행 중에만</b> 전송돼요.</p></div></article><article class="role reveal" style="--d:160ms"><div class="role-shot"><div class="phone "><img class="" src="shots/app-coach.jpg" alt="코치 앱 - 오늘 수업" width="462" height="1000" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">⚽</span><h3>코치</h3><p>오늘 수업과 출결을 기록하고, 훈련 내용과 사진을 남겨요.</p></div></article><article class="role reveal" style="--d:240ms"><div class="role-shot"><div class="browser "><div class="bar"><i></i><i></i><i></i><span>onclub.handle.ai.kr</span></div><img class="" src="shots/web-home.jpg" alt="운영 콘솔 - 관제 홈" width="1600" height="1111" loading="lazy" decoding="async"></div></div><div class="role-body"><span class="role-ico" aria-hidden="true">🏟️</span><h3>클럽 운영자</h3><p>원생·반·차량·일정·수강료를 한 화면에서 관리하고, 신고된 내용을 검토해요.</p></div></article>
   </div>
   <div class="notice info reveal">
     <span aria-hidden="true">🔒</span>
@@ -73,7 +134,7 @@
 <section class="in console-band">
   <h2 class="reveal">운영 콘솔</h2>
   <p class="sec-lead reveal">클럽 운영자는 PC 웹에서 관제 · 수업 · 수강료까지 한 번에 관리해요.</p>
-  <div class="console-hero reveal"><div class="browser " data-speed="-0.06"><div class="bar"><i></i><i></i><i></i><span>onclub.handle.ai.kr</span></div><img class="" src="shots/web-home.jpg" alt="운영 콘솔 관제 홈 — 노선 · 원생 · 문의" width="1600" height="1111" loading="lazy" decoding="async"></div></div>
+  <div class="console-hero reveal"><div class="browser " data-speed="-0.06"><div class="bar"><i></i><i></i><i></i><span>onclub.handle.ai.kr</span></div><img class="" src="shots/web-home.jpg" alt="운영 콘솔 관제 홈 - 노선 · 원생 · 문의" width="1600" height="1111" loading="lazy" decoding="async"></div></div>
   <div class="console-grid">
     <div class="feat reveal" style="--d:0ms"><b>통합 캘린더</b><span>수업 · 대관 · 행사를 한 달력에</span></div><div class="feat reveal" style="--d:80ms"><b>수업 · 출석</b><span>정기 수업을 만들고 출석을 기록</span></div><div class="feat reveal" style="--d:160ms"><b>수강료</b><span>청구 · 납부 현황을 한눈에</span></div><div class="feat reveal" style="--d:240ms"><b>영상 · 사진</b><span>수업 사진을 반 · 원생별로 공유</span></div>
   </div>
@@ -109,7 +170,7 @@
 </section>
 
 <footer>
-  <span>온클럽 · ONCLUB — 유소년 스포츠클럽 운영 플랫폼</span>
+  <span>온클럽 · ONCLUB - 유소년 스포츠클럽 운영 플랫폼</span>
   <span>문의 <a href="mailto:onclubapp@gmail.com">onclubapp@gmail.com</a></span>
   <span class="biz">상호 가볍지이지(LightEZ) · 대표 손민효 · 사업자등록번호 612-78-00495<br>서울특별시 송파구 마천로 83, 6층 691호 (오금동, 제이에스빌딩)</span>
 </footer>
